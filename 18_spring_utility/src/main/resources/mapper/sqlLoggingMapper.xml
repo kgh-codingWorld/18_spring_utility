@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.application.utility.chapter01_sqlLogging.SqlLoggingDAO">
+
+	<!-- 브랜드 전체조회 -->
+	<select id="getBrandList" resultType="BrandDTO">
+		SELECT	*
+		FROM	BRAND
+	</select>
+	
+	
+	<!-- 브랜드 상세조회 -->
+	<select id="getBrandDetail" parameterType="long" resultType="BrandDTO">
+		SELECT	*
+		FROM	BRAND
+		WHERE	BRAND_ID = #{brandId}
+	</select>
+
+	<!-- 브랜드 추가 -->
+	<insert id="createBrand"  parameterType="BrandDTO" >
+		INSERT INTO 
+				BRAND
+		VALUES (
+			#{brandId},
+			#{brandNm},
+			NOW(),
+			#{activeYn}
+		);
+	</insert>
+	
+	<!-- 브랜드 수정 -->
+	<update id="updateBrand"  parameterType="BrandDTO" >
+		UPDATE	BRAND
+		SET		BRAND_NM = #{brandNm}
+		WHERE	BRAND_ID = #{brandId}
+	</update>
+	
+	<!-- 브랜드 삭제 -->
+	<delete id="deleteBrand" parameterType="long">
+		DELETE FROM BRAND
+		WHERE		BRAND_ID = #{brandId}
+	</delete>
+	
+</mapper> 
