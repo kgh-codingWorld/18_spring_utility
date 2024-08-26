@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.application.utility.chapter04_scheduler.SchedulerDAO">
+
+	<!-- 상품 전체조회 -->
+	<select id="getProductList" resultType="ProductDTO">
+		SELECT	*
+		FROM	PRODUCT
+	</select>
+	
+	<!-- 브랜드 전체조회 -->
+	<select id="getBrandList" resultType="BrandDTO">
+		SELECT	*
+		FROM	BRAND
+	</select>
+	
+</mapper> 
