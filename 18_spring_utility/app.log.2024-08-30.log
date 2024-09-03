@@ -1,0 +1,515 @@
+2024-08-30 16:03:29.399 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:03:29.403 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:03:29.448 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-30 16:03:29.449 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-30 16:03:30.476 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:03:30.479 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:03:30.479 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:03:30.482 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:03:30.489 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:03:30.490 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:03:30.490 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:03:30.530 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:03:30.530 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
+2024-08-30 16:03:31.007 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:03:31.018 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:03:31.033 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:03:31.040 [restartedMain] INFO  com.application.aop.Application - Started Application in 1.931 seconds (process running for 2.671)
+2024-08-30 16:03:48.937 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:03:48.938 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:03:48.938 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-30 16:12:30.428 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:12:30.431 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:12:30.621 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:12:30.621 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:12:30.801 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:12:30.802 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:12:30.802 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:12:30.802 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:12:30.802 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:12:30.803 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:12:30.803 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:12:30.814 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:12:30.815 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 192 ms
+2024-08-30 16:12:31.028 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:12:31.033 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:12:31.036 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:12:31.039 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.439 seconds (process running for 542.67)
+2024-08-30 16:12:31.040 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:15:04.924 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:15:04.926 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:05.112 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:15:05.112 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:15:05.290 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:15:05.291 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:15:05.303 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:15:05.303 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 189 ms
+2024-08-30 16:15:05.521 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:15:05.526 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:05.529 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:15:05.532 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.441 seconds (process running for 697.163)
+2024-08-30 16:15:05.533 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:15:45.776 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:15:45.777 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:45.956 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:15:45.956 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:15:46.113 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:15:46.114 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:15:46.124 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:15:46.124 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 166 ms
+2024-08-30 16:15:46.309 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:15:46.313 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:15:46.315 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:15:46.318 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.38 seconds (process running for 737.95)
+2024-08-30 16:15:46.319 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:16:31.737 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:16:31.739 [Thread-15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:16:31.916 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:16:31.916 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:16:32.075 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:16:32.076 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:16:32.087 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:16:32.087 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 169 ms
+2024-08-30 16:16:32.278 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:16:32.282 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:16:32.285 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:16:32.288 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.39 seconds (process running for 783.918)
+2024-08-30 16:16:32.288 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:18:39.780 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:18:39.782 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:18:39.969 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:18:39.969 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:18:40.133 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:18:40.134 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:18:40.144 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:18:40.144 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+2024-08-30 16:18:40.201 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method excludePathPatterns(String) is undefined for the type AuthInterceptorConfig
+
+2024-08-30 16:18:40.202 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-30 16:18:40.206 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-30 16:18:40.221 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method excludePathPatterns(String) is undefined for the type AuthInterceptorConfig
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.application.aop.Application.main(Application.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method excludePathPatterns(String) is undefined for the type AuthInterceptorConfig
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method excludePathPatterns(String) is undefined for the type AuthInterceptorConfig
+
+	at com.application.aop.chapter03_interceptor.auth.AuthInterceptorConfig.addInterceptors(AuthInterceptorConfig.java:31)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addInterceptors(WebMvcConfigurerComposite.java:88)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addInterceptors(DelegatingWebMvcConfiguration.java:83)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getInterceptors(WebMvcConfigurationSupport.java:358)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.createWelcomePageHandlerMapping(WebMvcAutoConfiguration.java:439)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.welcomePageHandlerMapping(WebMvcAutoConfiguration.java:419)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 25 common frames omitted
+2024-08-30 16:20:58.726 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:20:58.726 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:20:58.880 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:20:58.882 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:20:58.892 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:20:58.892 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 164 ms
+2024-08-30 16:20:59.081 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:20:59.086 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:20:59.091 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:20:59.094 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.385 seconds (process running for 1050.724)
+2024-08-30 16:20:59.094 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:21:09.729 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:21:09.731 [Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:21:09.907 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:21:09.908 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:21:10.062 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:21:10.062 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:21:10.063 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:21:10.063 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:21:10.063 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:21:10.063 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:21:10.063 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:21:10.072 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:21:10.072 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+2024-08-30 16:21:10.268 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:21:10.272 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:21:10.274 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:21:10.277 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.387 seconds (process running for 1061.908)
+2024-08-30 16:21:10.278 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:21:27.908 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:21:27.909 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:21:27.909 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-30 16:22:11.097 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:22:11.098 [Thread-30] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:22:11.278 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:22:11.278 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:22:11.430 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:22:11.431 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:22:11.440 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:22:11.441 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 161 ms
+2024-08-30 16:22:11.639 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:22:11.644 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:22:11.647 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:22:11.650 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.389 seconds (process running for 1123.28)
+2024-08-30 16:22:11.650 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:22:13.244 [http-nio-80-exec-2] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:22:13.245 [http-nio-80-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:22:13.246 [http-nio-80-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-30 16:23:22.605 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:23:22.606 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:22.790 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:23:22.790 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:23:22.959 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:23:22.960 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:23:22.960 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:23:22.960 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:23:22.960 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:22.961 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:23:22.961 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:23:22.970 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:23:22.970 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 178 ms
+2024-08-30 16:23:23.177 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:23:23.182 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:23.184 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:23:23.187 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.417 seconds (process running for 1194.818)
+2024-08-30 16:23:23.188 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:23:24.092 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:23:24.092 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:23:24.093 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-30 16:23:34.914 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:23:34.915 [Thread-38] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:35.122 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:23:35.123 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:23:35.290 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:23:35.291 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:23:35.301 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:23:35.301 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 176 ms
+2024-08-30 16:23:35.504 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:23:35.509 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:23:35.511 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:23:35.514 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.411 seconds (process running for 1207.145)
+2024-08-30 16:23:35.515 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:25:57.172 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-08-30 16:25:57.173 [Thread-42] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:25:57.357 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:25:57.357 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:25:57.511 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:25:57.512 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:25:57.512 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:25:57.512 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:25:57.512 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:25:57.512 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:25:57.513 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:25:57.522 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:25:57.522 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+2024-08-30 16:25:57.710 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:25:57.715 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:25:57.717 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:25:57.720 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.38 seconds (process running for 1349.351)
+2024-08-30 16:25:57.721 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:26:15.058 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:26:15.058 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:26:15.058 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-30 16:27:51.551 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-08-30 16:27:51.552 [Thread-46] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:27:51.731 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:27:51.731 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:27:51.893 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:27:51.893 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:27:51.893 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:27:51.893 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:27:51.893 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:27:51.894 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:27:51.894 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:27:51.903 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:27:51.903 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 171 ms
+2024-08-30 16:27:52.096 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:27:52.101 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:27:52.104 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:27:52.107 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.392 seconds (process running for 1463.737)
+2024-08-30 16:27:52.107 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:32:45.626 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-30 16:32:45.627 [Thread-50] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:32:45.803 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:32:45.803 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:32:45.967 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:32:45.968 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:32:45.978 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:32:45.978 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 173 ms
+2024-08-30 16:32:46.180 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:32:46.184 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:32:46.187 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:32:46.189 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.402 seconds (process running for 1757.821)
+2024-08-30 16:32:46.190 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:37:08.545 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:37:08.546 [Thread-54] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:08.720 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:37:08.721 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:37:08.870 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:37:08.871 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:37:08.884 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:37:08.884 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+2024-08-30 16:37:09.064 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:37:09.068 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:09.070 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:37:09.073 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.368 seconds (process running for 2020.704)
+2024-08-30 16:37:09.074 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:37:56.569 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-30 16:37:56.571 [Thread-58] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:56.750 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:37:56.750 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:37:56.909 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:37:56.909 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:37:56.909 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:37:56.909 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:37:56.909 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:56.910 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:37:56.910 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:37:56.919 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:37:56.920 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 169 ms
+2024-08-30 16:37:57.107 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:37:57.111 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:37:57.113 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:37:57.116 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.382 seconds (process running for 2068.747)
+2024-08-30 16:37:57.116 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:38:43.497 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:38:43.499 [Thread-62] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:38:43.679 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:38:43.680 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:38:43.868 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:38:43.868 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:38:43.868 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:38:43.869 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:38:43.869 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:38:43.869 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:38:43.869 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:38:43.880 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:38:43.880 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 199 ms
+2024-08-30 16:38:44.086 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:38:44.091 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:38:44.093 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:38:44.096 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.433 seconds (process running for 2115.727)
+2024-08-30 16:38:44.097 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:40:55.598 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:40:55.598 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:40:55.598 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-30 16:41:15.967 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:41:15.968 [Thread-66] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:41:16.150 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:41:16.150 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:41:16.310 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:41:16.311 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:41:16.320 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:41:16.320 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 168 ms
+2024-08-30 16:41:16.511 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:41:16.515 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:41:16.517 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:41:16.520 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.386 seconds (process running for 2268.151)
+2024-08-30 16:41:16.521 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:41:16.730 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:41:16.730 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:41:16.731 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-30 16:42:04.004 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:42:04.005 [Thread-70] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:42:04.185 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:42:04.185 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:42:04.340 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:42:04.341 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:42:04.351 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:42:04.351 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 164 ms
+2024-08-30 16:42:04.542 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:42:04.546 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:42:04.548 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:42:04.551 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.383 seconds (process running for 2316.183)
+2024-08-30 16:42:04.552 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:47:17.418 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:47:17.421 [Thread-74] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:47:17.601 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:47:17.601 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:47:17.763 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:47:17.764 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:47:17.774 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:47:17.774 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 172 ms
+2024-08-30 16:47:17.980 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:47:17.985 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:47:17.987 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:47:17.990 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.406 seconds (process running for 2629.621)
+2024-08-30 16:47:17.990 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:47:59.924 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:47:59.924 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:47:59.925 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-30 16:48:13.601 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 16:48:13.603 [Thread-78] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 16:48:13.782 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 16:48:13.782 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 16:48:13.934 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 16:48:13.935 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 16:48:13.945 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 16:48:13.945 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+2024-08-30 16:48:14.128 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 16:48:14.132 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 16:48:14.138 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 16:48:14.140 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.373 seconds (process running for 2685.771)
+2024-08-30 16:48:14.141 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 16:48:19.863 [http-nio-80-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30 16:48:19.863 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-30 16:48:19.864 [http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-30 17:02:29.519 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 17:02:29.522 [Thread-82] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 17:02:29.706 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 17:02:29.706 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 17:02:29.925 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 17:02:29.925 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 17:02:29.925 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 17:02:29.925 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 17:02:29.926 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 17:02:29.926 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 17:02:29.926 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 17:02:29.935 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 17:02:29.935 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 228 ms
+2024-08-30 17:02:30.146 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 17:02:30.151 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 17:02:30.153 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 17:02:30.156 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.469 seconds (process running for 3540.73)
+2024-08-30 17:02:30.157 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 17:03:22.851 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30 17:03:22.853 [Thread-86] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 17:03:23.033 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 9004 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 17:03:23.034 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 17:03:23.187 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 17:03:23.188 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 17:03:23.197 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 17:03:23.197 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+2024-08-30 17:03:23.380 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 17:03:23.384 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 17:03:23.387 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 17:03:23.390 [restartedMain] INFO  com.application.aop.Application - Started Application in 0.372 seconds (process running for 3593.964)
+2024-08-30 17:03:23.390 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-30 17:03:44.062 [RMI TCP Connection(62)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-08-30 17:03:44.063 [RMI TCP Connection(62)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+2024-08-30 17:04:13.717 [restartedMain] INFO  com.application.aop.Application - Starting Application using Java 17.0.11 with PID 24224 (C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop\bin\main started by 15_web_kgh in C:\Users\15_web_kgh\git\16_spring_aop\16_spring_aop)
+2024-08-30 17:04:13.719 [restartedMain] INFO  com.application.aop.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-30 17:04:13.755 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-30 17:04:13.756 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-30 17:04:14.562 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 80 (http)
+2024-08-30 17:04:14.564 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-30 17:04:14.564 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-08-30 17:04:14.566 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-08-30 17:04:14.572 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2024-08-30 17:04:14.573 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-30 17:04:14.574 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-30 17:04:14.611 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-30 17:04:14.612 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+2024-08-30 17:04:15.063 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-30 17:04:15.074 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2024-08-30 17:04:15.088 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 80 (http) with context path '/'
+2024-08-30 17:04:15.096 [restartedMain] INFO  com.application.aop.Application - Started Application in 1.612 seconds (process running for 2.338)
+2024-08-30 17:17:49.782 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-08-30 17:17:49.786 [RMI TCP Connection(18)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]

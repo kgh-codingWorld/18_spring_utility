@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>export</title>
+</head>
+<body>
+
+	<h3>excel export 참조 메뉴얼</h3>
+	<p>
+		<!-- 아래 버튼 클릭시 export 컨트롤러로 이동 -->
+		<input type="button" value="예시" 			 th:onclick="|location.href='@{/export/ex}'|"> 	
+		<input type="button" value="Product Export"  th:onclick="|location.href='@{/export/productExport}'|">
+		<input type="button" value="Brand Export" 	 th:onclick="|location.href='@{/export/brandExport}'|">
+	</p>
+	
+</body>
+</html>
