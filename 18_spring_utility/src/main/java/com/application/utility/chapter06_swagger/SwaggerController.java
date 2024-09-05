@@ -11,7 +11,7 @@ import io.swagger.v3.oas.annotations.Parameters;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
-@RestController
+@RestController // 해당 클래스가 REST API 요청을 처리하는 컨트롤러임을 명시
 @RequestMapping("/swagger")
 public class SwaggerController {
 
@@ -24,12 +24,12 @@ public class SwaggerController {
 	
 	*/
 	
-	// 1) Basic
+	// 1) Basic API
 	@GetMapping("/basic")
 	public String basic(@RequestParam("basicInput") String basicInput) {
 		System.out.println("--- basic ---");
 		System.out.println("basicInput : " + basicInput);
-		return "응애";
+		return "응애"; // 클라이언트에 반환되는 응답
 	}
 	
 	
